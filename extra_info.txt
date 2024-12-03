@@ -1,0 +1,9 @@
+The UserInputValidator class works by calling its "validate_positive_integers" method giving it a list.
+When the list has been validated, it calls the list_validated method which prints the list with only positive integers.
+
+Example usage:
+" ---
+test1 = UserInputValidator()
+test1.validate_positive_integers(["1", "567", "-32", "-15", "100", "Fredrick", "8.9"])
+test1.list_validated()
+" ---
